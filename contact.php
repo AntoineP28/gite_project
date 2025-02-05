@@ -1,54 +1,7 @@
-<!DOCTYPE html>
-<html lang="fr">
+<?php include '_hosts.php' ?>
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../_styles/style.css">
-    <link rel="stylesheet" href="../_styles/generic.css">
-    <link rel="stylesheet" href="../_styles/burger.css">
-    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
-    <title>Contact</title>
-</head>
+<?php include '_entete.php' ?>
 
-<body>
-    <header>
-        <div class="headerbar flex flexrow">
-            <div class="headerImg">
-                <a href="../index.html"><img src="../_imgs/logo.png" alt=""></a>
-            </div>
-            <div class="headerNavBar">
-                <nav>
-                    <a href="#">Accueil</a>
-                    <a href="Apropos.html">À propos</a>
-                    <a href="#">Nos Gîtes</a>
-                </nav>
-            </div>
-            <div class="BtnConnexion">
-                <a href="connexion.html"><button>Connexion</button></a>
-            </div>
-        </div>
-        <div class="affiche_burger">
-            <div class="burger flexCol spaceCenter">
-                <label class="hamburger-menu">
-                    <input type="checkbox">
-                </label>
-                <aside class="sidebar">
-                    <img src="../_imgs/logo_blanc.png" alt="logo">
-
-                    <div class="flexCol">
-
-                        <li class="a" id="menu_links">Accueil</a></li>
-                        <li class="a" id="menu_links">A propos</a></li>
-                        <li class="a" id="menu_links">Nos gîtes</a></li>
-                        <li class="a" id="menu_links">Contact</a></li>
-                        <li class="a" id="menu_links">Connexion</a></li>
-
-                    </div>
-                </aside>
-            </div>
-        </div>
-    </header>
     <section class="Contact flex spaceCenter">
         <div class="headAll flex flexCol">
             <div class="HeadContact itemCenter">
